@@ -15,7 +15,7 @@
 
 		<nav>
 			<img src="images/logo.png" width=200px></a>
-<!-- Login Button and Form-->
+
 			<button id="id02" class="btnedge" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
 
 				<div id="id01" class="modal">
@@ -32,21 +32,17 @@
 								<label><b>Password</b></label>
 							    <input type="password" placeholder="Enter Password" name="psw" required>
 							        
-							   
+							    <button type="submit">Login</button>
+							    <input type="checkbox" checked="checked"> Remember Me <span id="id05" class="psw"><a href="#">Forgot Password?</a></span>
 						</div>
 
-						<div class="container1" style="background-color:#f1f1f1">
-							
-							<input type="checkbox" checked="checked"> Remember Me 
-							
-							<a href="homepage.html"> <button type="button" class="acceptbtn1">Log In</button></a>
-							<span id="id05" class="psw"><a href="#">Forgot Password?</a></span>	
+						<div class="container" style="background-color:#f1f1f1">
+								
 						</div>
 					</form>
 				</div>
 
 
-<!-- Create Account Button and Form-->
 				<button id="id03" class="btnedge" onclick="document.getElementById('id04').style.display='block'" style="width:auto;">Create Account</button>
 
 				<div id="id04" class="modal">
@@ -72,11 +68,11 @@
 									<p>By creating an account you agree to our<a href="#">Terms & Privacy.</a></p>
 						</div>
 
-						<div class="container1" style="background-color:#f1f1f1">
+						<div class="container" style="background-color:#f1f1f1">
 
 							<button type="button" onclick="document.getElementById('id04').style.display='none'" class="cancelbtn">Cancel</button>
 
-							<a href="homepage.html"><button type="button" class="acceptbtn">Sign Up</button></a>
+							<a href="homepage.html"> <button type="button" class="acceptbtn">Sign Up</button></a>
 						</div>
 
 					</form>
@@ -92,7 +88,7 @@
 
 <script>
 // Get the modal
-var modal = document.getElementById('id01','id03');
+var modal = document.getElementById('id01');
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
@@ -102,7 +98,7 @@ window.onclick = function(event) {
 }
 
 // Get the modal
-var modal = document.getElementById();
+var modal = document.getElementById('id03');
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
