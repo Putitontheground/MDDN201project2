@@ -1,0 +1,121 @@
+*{
+	box-sizing: border-box; 
+	/* This makes the widths of elements more consistent
+		Full details here https://css-tricks.com/box-sizing/ */
+}
+
+body{
+	margin: 0px; /* Often browsers have a 5px margin by deafult*/
+	font-family: 'Raleway', sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	background-color: #FAFFFF;
+    padding-top: 65px; 
+}
+
+nav a{
+	color: white; 
+	margin-top: 5px;
+	padding-bottom: 20px;
+
+}
+
+nav a:hover, nav a:focus{
+	opacity: 0.8;
+	background-color: transparent;
+	color: inherit;
+}
+
+.navbar-right {
+	margin-right: 10%;
+}
+
+.navbar-header {
+	padding-left: 15%;
+	padding-right: 70px;
+	margin-top: -3px;
+}
+
+
+
+.form-group.input-group {
+ width:25%;
+ margin-left:2%;
+ margin-top: 5px;
+
+}
+
+.btn.btn-default {
+	margin-top: 8px;
+}
+
+
+.col-sm-2.well {
+	height: 85%;
+	position:fixed;
+	padding-left: 20px;
+	margin-right: 9.5%;
+	margin-left: 70.5%;
+	width:200px;
+	top: 67px;
+}
+
+/* Add some padding inside the card container */
+.container {
+    padding: 2px 16px;
+}
+
+.container-fluid {
+	max-width: 80%;
+	margin-right: 14%;
+}
+
+
+#googleMap {
+	width:54%;
+	height:550px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	margin: 0 auto;
+}
+
+.chip {
+    display: inline-block;
+    padding: 0 25px;
+    height: 50px;
+    font-size: 10px;
+    line-height: 30px;
+    border-radius: 25px;
+    background-color: #f1f1f1;
+}
+
+.chip img {
+    float: left;
+    margin: 0 10px 0 -45px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+div.scrollmenu {
+    overflow: auto;
+    white-space: nowrap;
+    width:54%;
+    margin: 0 auto;
+}
+
+div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+    opacity: 0.8;
+}
+img.mapphoto {
+	width: 30px;
+	height: 30px;
+	margin: 0 auto;
+}
